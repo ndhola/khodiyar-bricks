@@ -775,12 +775,12 @@
     sunflower-antd "1.0.0-beta.3"
     tslib "^2.3.1"
 
-"@refinedev/cli@^2.16.14":
-  version "2.16.14"
-  resolved "https://registry.yarnpkg.com/@refinedev/cli/-/cli-2.16.14.tgz#8924d275e11e693765bba14bb7e4fd73032c01ad"
-  integrity sha512-eVdpsFzge2tZvyktpFNIxGd9mzJCVHFLogYZ8g3yOQgUqadk0vVg3aqANJFd5nwcQXAoHRyHa7/9/73FqyEOSw==
+"@refinedev/cli@^2.16.15":
+  version "2.16.15"
+  resolved "https://registry.yarnpkg.com/@refinedev/cli/-/cli-2.16.15.tgz#905c7a9d39b844922bd243866a51944e63b8fff8"
+  integrity sha512-V8ECAeNShSEovd4gyf8l+xE5haCCXQ4z1H65P0b2Dw3mFBp7GL6jyOOFa6DEpRQTGnQZMPYL25gOBwITgB7+xQ==
   dependencies:
-    "@refinedev/devtools-server" "1.1.19"
+    "@refinedev/devtools-server" "1.1.20"
     boxen "^5.1.2"
     cardinal "^2.1.1"
     center-align "1.0.1"
@@ -815,10 +815,26 @@
     temp "^0.9.4"
     tslib "^2.3.1"
 
-"@refinedev/core@^4.38.4", "@refinedev/core@^4.44.11":
+"@refinedev/core@^4.38.4":
   version "4.44.11"
   resolved "https://registry.yarnpkg.com/@refinedev/core/-/core-4.44.11.tgz#5e0c523f24c5018ec0e6c1939ca9e21e5e27e4de"
   integrity sha512-tQIh3goH7e734fZykJ7AbLd9fvXRFHkAmbnklfWyjSt0K8KV0ba2hcMymxGJYcWry42tzAyJHgqmqf7Ic7wxQA==
+  dependencies:
+    "@refinedev/devtools-internal" "1.1.4"
+    "@tanstack/react-query" "^4.10.1"
+    export-to-csv-fix-source-map "^0.2.1"
+    lodash "^4.17.21"
+    lodash-es "^4.17.21"
+    papaparse "^5.3.0"
+    pluralize "^8.0.0"
+    qs "^6.10.1"
+    tslib "^2.3.1"
+    warn-once "^0.1.0"
+
+"@refinedev/core@^4.44.12":
+  version "4.44.12"
+  resolved "https://registry.yarnpkg.com/@refinedev/core/-/core-4.44.12.tgz#956caabb1abc7424293e79dce74f896265e8dd1d"
+  integrity sha512-zKsxxb14KRWWYBrxbGiKb006wiVSds0B1nLYT3wfS+Y+/iv/6Id1cYAGOARMwMY6kcv3ZaW83dsFqaHGsKuf0w==
   dependencies:
     "@refinedev/devtools-internal" "1.1.4"
     "@tanstack/react-query" "^4.10.1"
@@ -840,14 +856,14 @@
     "@tanstack/react-query" "^4.10.1"
     error-stack-parser "^2.1.4"
 
-"@refinedev/devtools-server@1.1.19":
-  version "1.1.19"
-  resolved "https://registry.yarnpkg.com/@refinedev/devtools-server/-/devtools-server-1.1.19.tgz#961cee88fbd256c4d201571afacee2c0f4cb9507"
-  integrity sha512-gvzQI4ZOKXrMhD8j0P1VxeznZ+g6zspaIklzeOWZOadvNOzEwmwKCXTSNJsQ7zwhVYDmbZAbS8D2A3CH8gcMZA==
+"@refinedev/devtools-server@1.1.20":
+  version "1.1.20"
+  resolved "https://registry.yarnpkg.com/@refinedev/devtools-server/-/devtools-server-1.1.20.tgz#3af47e3eb6fdfc462a0f3c608cf9073346f14343"
+  integrity sha512-DXLMbyMcz2oVQZDzwaCfFSWdUIoigcRkJEvb4MTFqCe/Dx9OboOYRbD6ZAU6B5VuzYc7dhQCLrvx2kWQ2HQPgA==
   dependencies:
     "@ory/client" "^1.1.25"
     "@refinedev/devtools-shared" "1.1.2"
-    "@refinedev/devtools-ui" "1.1.12"
+    "@refinedev/devtools-ui" "1.1.13"
     body-parser "^1.20.2"
     boxen "^5.1.2"
     chalk "^4.1.2"
@@ -877,10 +893,10 @@
     "@tanstack/react-query" "^4.10.1"
     error-stack-parser "^2.1.4"
 
-"@refinedev/devtools-ui@1.1.12":
-  version "1.1.12"
-  resolved "https://registry.yarnpkg.com/@refinedev/devtools-ui/-/devtools-ui-1.1.12.tgz#b7fc6a066259bd5d56119abf77183c1488b05ee9"
-  integrity sha512-LZp6y7ZBdU5pZ8B7vSOooAePcO62RvZ9iqj6rxtgPjM/cYrA59rQVwYewopnDcXm0kKrjZKp9/3C0/n7qqCXbQ==
+"@refinedev/devtools-ui@1.1.13":
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/@refinedev/devtools-ui/-/devtools-ui-1.1.13.tgz#149079124e3777f571ac14d5aa29a144477f40a3"
+  integrity sha512-piBgoxlH20mD80kRgUL+WnHel9qd/M3cfCUcodulpCJvudsdsyNn9eskTjGp5XFvdNY3ICk39b6/9astWyWaZQ==
   dependencies:
     "@fireworks-js/react" "^2.10.7"
     "@headlessui/react" "^1.7.17"
