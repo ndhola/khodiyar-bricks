@@ -775,12 +775,12 @@
     sunflower-antd "1.0.0-beta.3"
     tslib "^2.3.1"
 
-"@refinedev/cli@^2.16.15":
-  version "2.16.15"
-  resolved "https://registry.yarnpkg.com/@refinedev/cli/-/cli-2.16.15.tgz#905c7a9d39b844922bd243866a51944e63b8fff8"
-  integrity sha512-V8ECAeNShSEovd4gyf8l+xE5haCCXQ4z1H65P0b2Dw3mFBp7GL6jyOOFa6DEpRQTGnQZMPYL25gOBwITgB7+xQ==
+"@refinedev/cli@^2.16.16":
+  version "2.16.16"
+  resolved "https://registry.yarnpkg.com/@refinedev/cli/-/cli-2.16.16.tgz#6416d05b91b41d81c80139c2f24e67c393048a5c"
+  integrity sha512-6k9PVtHmqVCy2agXcUk82GSA53Vyz5hmL2E6157D54PKx9imyKcf7OcBU/s58FgAFjpGgj4RgEhh4zlnJB6QQA==
   dependencies:
-    "@refinedev/devtools-server" "1.1.20"
+    "@refinedev/devtools-server" "1.1.21"
     boxen "^5.1.2"
     cardinal "^2.1.1"
     center-align "1.0.1"
@@ -856,14 +856,14 @@
     "@tanstack/react-query" "^4.10.1"
     error-stack-parser "^2.1.4"
 
-"@refinedev/devtools-server@1.1.20":
-  version "1.1.20"
-  resolved "https://registry.yarnpkg.com/@refinedev/devtools-server/-/devtools-server-1.1.20.tgz#3af47e3eb6fdfc462a0f3c608cf9073346f14343"
-  integrity sha512-DXLMbyMcz2oVQZDzwaCfFSWdUIoigcRkJEvb4MTFqCe/Dx9OboOYRbD6ZAU6B5VuzYc7dhQCLrvx2kWQ2HQPgA==
+"@refinedev/devtools-server@1.1.21":
+  version "1.1.21"
+  resolved "https://registry.yarnpkg.com/@refinedev/devtools-server/-/devtools-server-1.1.21.tgz#e95b9f86061d79f5dcbcc6e2ddd2619d4b84be16"
+  integrity sha512-c1FR/S4M+22QgNf+GDyg4dIhXzbZFSXhxh5Z+NUitTQ9ievwGtGvfcO8mSvxJI5GMxJ/nfxSOuAm3cPpHVNvog==
   dependencies:
     "@ory/client" "^1.1.25"
     "@refinedev/devtools-shared" "1.1.2"
-    "@refinedev/devtools-ui" "1.1.13"
+    "@refinedev/devtools-ui" "1.1.14"
     body-parser "^1.20.2"
     boxen "^5.1.2"
     chalk "^4.1.2"
@@ -893,10 +893,10 @@
     "@tanstack/react-query" "^4.10.1"
     error-stack-parser "^2.1.4"
 
-"@refinedev/devtools-ui@1.1.13":
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/@refinedev/devtools-ui/-/devtools-ui-1.1.13.tgz#149079124e3777f571ac14d5aa29a144477f40a3"
-  integrity sha512-piBgoxlH20mD80kRgUL+WnHel9qd/M3cfCUcodulpCJvudsdsyNn9eskTjGp5XFvdNY3ICk39b6/9astWyWaZQ==
+"@refinedev/devtools-ui@1.1.14":
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/@refinedev/devtools-ui/-/devtools-ui-1.1.14.tgz#64f8df3b5a07f1298ebc0c85f9e57ad331c4488b"
+  integrity sha512-92If3pPWwgkKnpBd+TuZJnsGjygjaCk3tLipD+KqjbFQxrrhRFJNLqBS8pIs6DLJQ8PkUP+oic6SHPzxKvITTA==
   dependencies:
     "@fireworks-js/react" "^2.10.7"
     "@headlessui/react" "^1.7.17"
