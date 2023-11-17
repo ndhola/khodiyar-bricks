@@ -759,10 +759,10 @@
     rc-resize-observer "^1.3.1"
     rc-util "^5.38.0"
 
-"@refinedev/antd@^5.36.18":
-  version "5.36.18"
-  resolved "https://registry.yarnpkg.com/@refinedev/antd/-/antd-5.36.18.tgz#a3d3be6673f6b0330499003e88731360a954108e"
-  integrity sha512-1Ln3+ApHlRPDuVpdLXOxlR4pAuPuhqCN5f5dKtmVawg8SNVE5czoK7U1iy6ehaeonxEJH22eLCZhB5KxrMXtcw==
+"@refinedev/antd@^5.36.19":
+  version "5.36.19"
+  resolved "https://registry.yarnpkg.com/@refinedev/antd/-/antd-5.36.19.tgz#1f599dcb4da78e5e6bec36ddeeb9fc7cfc3cf786"
+  integrity sha512-MQVHlVLzMDt0LGRHQm1cOFIPln5iMSDBCZqSTiAn6VX3D92xvT45TzjkE2+/XmqMSwEAChx33ZoMETT7CXewog==
   dependencies:
     "@ant-design/icons" "5.0.1"
     "@ant-design/pro-layout" "7.17.12"
@@ -831,10 +831,10 @@
     tslib "^2.3.1"
     warn-once "^0.1.0"
 
-"@refinedev/core@^4.44.12":
-  version "4.44.12"
-  resolved "https://registry.yarnpkg.com/@refinedev/core/-/core-4.44.12.tgz#956caabb1abc7424293e79dce74f896265e8dd1d"
-  integrity sha512-zKsxxb14KRWWYBrxbGiKb006wiVSds0B1nLYT3wfS+Y+/iv/6Id1cYAGOARMwMY6kcv3ZaW83dsFqaHGsKuf0w==
+"@refinedev/core@^4.45.0":
+  version "4.45.0"
+  resolved "https://registry.yarnpkg.com/@refinedev/core/-/core-4.45.0.tgz#6e5f0bf55cc5c3629f196159caa5cbae44f54a2a"
+  integrity sha512-ulo2QObfTha1L8FlcxkmXIwmLlmANGrZ/U67XB3nlEjnn2gi7ufTwsSNu9Qo1/IXAujzRuxbXRQwmibWzM8eEA==
   dependencies:
     "@refinedev/devtools-internal" "1.1.4"
     "@tanstack/react-query" "^4.10.1"
