@@ -775,10 +775,10 @@
     sunflower-antd "1.0.0-beta.3"
     tslib "^2.3.1"
 
-"@refinedev/cli@^2.16.16":
-  version "2.16.16"
-  resolved "https://registry.yarnpkg.com/@refinedev/cli/-/cli-2.16.16.tgz#6416d05b91b41d81c80139c2f24e67c393048a5c"
-  integrity sha512-6k9PVtHmqVCy2agXcUk82GSA53Vyz5hmL2E6157D54PKx9imyKcf7OcBU/s58FgAFjpGgj4RgEhh4zlnJB6QQA==
+"@refinedev/cli@^2.16.18":
+  version "2.16.18"
+  resolved "https://registry.yarnpkg.com/@refinedev/cli/-/cli-2.16.18.tgz#e4e55928971920b4fcc6071e4253a1324e4a3b3c"
+  integrity sha512-sQEXBnMyX7ULir3EOmcURoPQIB4R3UlVbeFuTANSL6VKyGflOOjLGaXxa8QZErXzWYQdPfGWkHm2XsK5w0Fexw==
   dependencies:
     "@refinedev/devtools-server" "1.1.21"
     boxen "^5.1.2"
@@ -804,6 +804,7 @@
     jscodeshift "0.13.1"
     marked "^4.3.0"
     marked-terminal "^6.0.0"
+    node-emoji "2.1.0"
     node-env-type "^0.0.8"
     node-fetch "^2.6.7"
     ora "^5.4.1"
@@ -3386,7 +3387,7 @@ node-dir@^0.1.17:
   dependencies:
     minimatch "^3.0.2"
 
-node-emoji@^2.1.0:
+node-emoji@2.1.0, node-emoji@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-2.1.0.tgz#93c99b0d3dfe7d5e37c056aded389e013c72d0c5"
   integrity sha512-tcsBm9C6FmPN5Wo7OjFi9lgMyJjvkAeirmjR/ax8Ttfqy4N8PoFic26uqFTIgayHPNI5FH4ltUvfh9kHzwcK9A==
